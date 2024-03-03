@@ -45,7 +45,8 @@ class Result {
 }
 
 public class Solution {
-    public static void main(String[] args) throws IOException {
+    @SuppressWarnings("unused")
+	public static void main(String[] args) throws IOException {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
 
         String[] firstMultipleInput = bufferedReader.readLine().replaceAll("\\s+$", "").split(" ");
